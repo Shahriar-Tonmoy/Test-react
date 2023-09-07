@@ -47,7 +47,7 @@ function App() {
 
 function Mobile({name, price}){
     const my_price = Array.isArray(price)? price[0] : price;
-    return <h1>{name} {my_price}</h1> 
+    return <h1 className='text-6xl font-bold text-orange-400'>{name} {my_price}</h1> 
 }
 
 export default App
